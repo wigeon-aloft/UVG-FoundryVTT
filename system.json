@@ -1,6 +1,28 @@
 {
-    "id": "uvg",
-    "title": "Ultra Violet Grasslands",
-    "description": "An unofficial implementation of the Ultra Violet Grasslands system for Foundry Virtual Tabletop.",
-    "version": "0.0.1"
+  "name": "uvg",
+  "title": "Ultra Violet Grasslands",
+  "description": "The unofficial Ultra Violet Grasslands system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "author": "Phantom Cowboys",
+  "esmodules": ["module/uvg.mjs"],
+  "styles": ["css/uvg.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
 }

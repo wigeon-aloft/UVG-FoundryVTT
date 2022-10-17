@@ -1,0 +1,22 @@
+{
+  "UVG.AbilityStr": "Strength",
+  "UVG.AbilityCon": "Constitution",
+  "UVG.AbilityDex": "Dexterity",
+  "UVG.AbilityInt": "Intelligence",
+  "UVG.AbilityWis": "Wisdom",
+  "UVG.AbilityCha": "Charisma",
+
+  "UVG.AbilityStrAbbr": "str",
+  "UVG.AbilityConAbbr": "con",
+  "UVG.AbilityDexAbbr": "dex",
+  "UVG.AbilityIntAbbr": "int",
+  "UVG.AbilityWisAbbr": "wis",
+  "UVG.AbilityChaAbbr": "cha",
+
+  "UVG.EffectCreate": "Create Effect",
+  "UVG.EffectToggle": "Toggle Effect",
+  "UVG.EffectEdit": "Edit Effect",
+  "UVG.EffectDelete": "Delete Effect",
+
+  "UVG.Add": "Add"
+}
