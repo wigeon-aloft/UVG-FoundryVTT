@@ -11,6 +11,7 @@ export class UVGActor extends Actor {
     // prepareBaseData(), prepareEmbeddedDocuments() (including active effects),
     // prepareDerivedData().
     super.prepareData();
+    data.species = this.data.data.specied || "";
   }
 
   /** @override */

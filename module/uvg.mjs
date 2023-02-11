@@ -1,5 +1,6 @@
 // Import document classes.
 import { UVGActor } from "./documents/actor.mjs";
+import { PlayerCharacterActor } from "./documents/playerActor.mjs";
 import { UVGItem } from "./documents/item.mjs";
 // Import sheet classes.
 import { UVGActorSheet } from "./sheets/actor-sheet.mjs";
@@ -21,6 +22,10 @@ Hooks.once('init', async function() {
     UVGItem,
     rollItemMacro
   };
+  Actor.registerSheet("uvg",PlayerCharacterActor, {
+	  types: ["player"],
+	  makeDefault: true
+  }
 
   // Add custom constants for configuration.
   CONFIG.UVG = UVG;
